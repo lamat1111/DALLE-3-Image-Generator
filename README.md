@@ -15,8 +15,6 @@ This is a Python script that interacts with **OpenAI's DALL-E 3 API** to generat
     - Start fresh with a new prompt
     - Optionally save the prompt to a `.txt` file
 
----
-
 ## How to Use
 
 1. Set your OpenAI API key inside the script (`API_KEY`).
@@ -36,11 +34,35 @@ This is a Python script that interacts with **OpenAI's DALL-E 3 API** to generat
 
 4. Follow the menu to generate, tweak, or save the prompt after generation.
 
----
-
 ## Example Prompts
 
 ```text
 A futuristic city skyline -size landscape -quality hd -style vivid
 A peaceful Zen garden -size portrait -quality standard -style natural
+```
 
+## Output
+
+Images and prompts are saved in the `poutput` folder, with filenames like:
+
+```
+dalle3-abc12_001.png
+dalle3-abc12_001.txt
+```
+
+## Requirements
+
+- Python 3
+- `requests` library (install with `pip install requests`)
+
+
+## Compatibility
+
+✅ Works on:  
+- Linux (Ubuntu, Debian, etc.)  
+- macOS  
+- Windows (with automatic UTF-8 terminal support applied)
+
+⚠️ Requires:  
+- Python 3.8+  
+- Internet connection (for API calls)
