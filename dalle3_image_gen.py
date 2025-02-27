@@ -12,7 +12,7 @@ API_KEY = "API_KEY_HERE"
 API_URL = "https://api.openai.com/v1/images/generations"
 
 # Output folder setup
-OUTPUT_FOLDER = "poutput"
+OUTPUT_FOLDER = "output"
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 # Ensure UTF-8 encoding for Windows terminal
